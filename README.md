@@ -76,7 +76,7 @@ Experiments on the UAV dataset demonstrate that CRE-YOLO achieves higher accurac
 | Model | mAP@0.5 | mAP@0.5:0.95 | Parameters (M) | FPS |
 |------|--------|-------------|------------|------------|
 | YOLOv5s | 96.4 | 57.8 | 7.2 | 291 |
-| CRE-YOLO | 97.1 | 60.3 | 3.8 | 387 |
+| CRE-YOLO | 97.6 | 66.8 | 3.8 | 387 |
 
 ## References
 1. RT-DETR: End-to-End Object Detection with Relational Transformers
