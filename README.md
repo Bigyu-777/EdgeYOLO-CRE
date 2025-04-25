@@ -1,4 +1,4 @@
-# EdgeYOLO-CRE: Efficient Jaboticaba Tree Detection on UAV Platforms
+# Lightweight EdgeYOLO-CRE Network for Jaboticaba Tree Recognition Based on Ascend AI Processor
 ![image](https://github.com/Bigyu-777/EdgeYOLO-CRE/blob/main/EdgeYOLO-CRE.png)
 ## Introduction
 YOLO-CRE is an improved object detection algorithm based on YOLOv5, designed for Jaboticaba tree detection in UAV (Unmanned Aerial Vehicle) imagery. This project replaces YOLOv5's original PAFPN (Path Aggregation Feature Pyramid Network) with CCFM (Cross-Channel Feature Modulation) from RT-DETR and integrates the ECA (Efficient Channel Attention) mechanism to enhance feature extraction and improve detection accuracy.
