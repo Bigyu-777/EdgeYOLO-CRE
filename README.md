@@ -78,8 +78,17 @@ Experiments on the UAV dataset demonstrate that EdgeYOLO-CRE achieves higher acc
 | YOLOv5s | 96.4 | 57.8 | 7.2 | 291 |
 | EdgeYOLO-CRE | 97.6 | 66.8 | 3.8 | 387 |
 
+---
+📄 About Me
+
+Hi, I'm Junyu Huang, a passionate researcher and developer with a strong interest in computer vision, deep learning, and multispectral image processing. I'm currently looking for graduate research opportunities or industry positions related to AI and computer vision.
+
+If you're interested in my background, feel free to check out my [online resume](https://bigyu-777.github.io/resume.html) and [Zh-CN Version](https://bigyu-777.github.io/resume-zh.html).
+I'm open to collaborations, research discussions, or any exciting opportunities.
+
 ## References
 1. RT-DETR: End-to-End Object Detection with Relational Transformers
 2. YOLOv5: https://github.com/ultralytics/yolov5
 3. ECA: Efficient Channel Attention for Deep Convolutional Neural Networks
+
 
