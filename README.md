@@ -58,6 +58,11 @@ python train.py --img 640 --batch 32 --epochs 30 --data datasets/tree.yaml --cfg
 - `--epochs 30`: Train for 30 epochs.
 - `--data datasets/tree.yaml`: Dataset configuration file.
 - `--cfg models/CRE.yaml`: Custom CRE-YOLO model configuration.
+## VAL
+Val the model using the following command:
+```bash
+python val.py --data dataset/tree.yaml --weights ckpt/best.pt --img 640
+```
 
 ## Inference
 Perform object detection using trained weights:
