@@ -11,14 +11,14 @@ CCFM improves feature fusion through cross-channel feature modulation. Compared 
 ECA utilizes a local cross-channel interaction strategy, avoiding complex fully connected computations while improving channel-wise information flow, enhancing the model’s ability to detect Jaboticaba trees.
 
 ### 3. UAV Remote Sensing Data Adaptation
-CRE-YOLO is optimized for the unique visual characteristics of Jaboticaba trees, incorporating tailored data augmentation strategies and anchor box adjustments to enhance performance in UAV imagery.
+EdgeYOLO-CRE is optimized for the unique visual characteristics of Jaboticaba trees, incorporating tailored data augmentation strategies and anchor box adjustments to enhance performance in UAV imagery.
 
 ## Installation
 This project requires Python 3.8 or later. It is recommended to create a virtual environment and install dependencies using the following commands:
 ```bash
 # Create a virtual environment
-conda create --name cre-yolo python==3.10
-conda activate cre-yolo
+conda create --name EdgeYOLO-CRE python==3.10
+conda activate EdgeYOLO-CRE
 
 
 # Install dependencies
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 2. **Directory Structure:**
 ```shell
-CRE-YOLO/
+EdgeYOLO-CRE/
 |-- datasets/
 |   |-- images/
 |   |   |-- train/
@@ -42,7 +42,7 @@ CRE-YOLO/
 |   |   |-- train/
 |   |   |-- val/
 |-- models/
-|   |-- cre.yaml  # CRE-YOLO model configuration
+|   |-- cre.yaml  # EdgeYOLO-CRE model configuration
 |-- train.py  # Training script
 |-- detect.py  # Inference script
 |-- README.md  # Project documentation
@@ -71,12 +71,12 @@ python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source dat
 ```
 
 ## Results & Performance
-Experiments on the UAV dataset demonstrate that CRE-YOLO achieves higher accuracy than YOLOv5 in Jaboticaba tree detection while maintaining reasonable computational efficiency.
+Experiments on the UAV dataset demonstrate that EdgeYOLO-CRE achieves higher accuracy than YOLOv5 in Jaboticaba tree detection while maintaining reasonable computational efficiency.
 
 | Model | mAP@0.5 | mAP@0.5:0.95 | Parameters (M) | FPS |
 |------|--------|-------------|------------|------------|
 | YOLOv5s | 96.4 | 57.8 | 7.2 | 291 |
-| CRE-YOLO | 97.6 | 66.8 | 3.8 | 387 |
+| EdgeYOLO-CRE | 97.6 | 66.8 | 3.8 | 387 |
 
 ## References
 1. RT-DETR: End-to-End Object Detection with Relational Transformers
