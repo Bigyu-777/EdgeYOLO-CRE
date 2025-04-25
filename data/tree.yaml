@@ -1,0 +1,5 @@
+train: D:\worksapce\yolov5\Jaboticaba\images
+val: D:\worksapce\yolov5\Jaboticaba\images
+nc: 1
+names:
+  0: tree
